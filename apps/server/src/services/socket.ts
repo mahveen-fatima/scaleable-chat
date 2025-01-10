@@ -17,7 +17,7 @@ const sub = new Redis({
     host: "caching-282becf5-mahveenfatima2224-02cd.d.aivencloud.com",
     port: 12380,
     username: "default",
-    password: "AVNS_zM-t0JUe5lYsgKGgs3a",
+    password: process.env.SUB_PASSWORD,
 })
 
 class SocketService {
