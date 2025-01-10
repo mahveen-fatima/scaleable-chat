@@ -1,0 +1,10 @@
+# Node.js
+node_modules/
+dist/
+build/
+.DS_Store
+.env
+
+# Turborepo cache
+turbo/
+out/
