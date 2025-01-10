@@ -10,7 +10,7 @@ const kafka = new Kafka({
     },
     sasl: {
         username: "avnadmin",
-        password: "AVNS_CZv8YuYtQLU9Ombh3B3",
+        password: "process.env.KAFKA_PASSWORD",
         mechanism: "plain"
     }
 })
